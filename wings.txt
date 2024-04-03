@@ -1,0 +1,18 @@
+debug: false
+uuid: 254176e2-b247-4dab-ae77-0ab5f5e4387e
+token_id: L4oifDabVmBszhU4
+token: hHEfEqrzcLRkhXsmgRUnfVkD39vVTjQtatYG0mi3R4xb7qmc81D0M9QXo6Sqty4J
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/clearly-romantic-sailfish.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/clearly-romantic-sailfish.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://effective-garbanzo-7gjg7vw7r542w6rj-80.app.github.dev'
